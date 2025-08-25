@@ -1,0 +1,52 @@
+#
+# This file is part of Python QGIS Plugin for WCPMS.
+# Copyright (C) 2025 INPE.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+#
+
+include *.in
+include *.rst
+include *.sh
+include *.yml
+include LICENSE
+include pylintrc
+include Dockerfile
+include .dockerignore
+recursive-include docs *.rst
+recursive-include wcpms_plugin *.csv
+recursive-include wcpms_plugin *.ini
+recursive-include wcpms_plugin *.jpg
+recursive-include wcpms_plugin *.cpg
+recursive-include wcpms_plugin *.dbf
+recursive-include wcpms_plugin *.prj
+recursive-include wcpms_plugin *.shp
+recursive-include wcpms_plugin *.shx
+recursive-include docs *.png
+recursive-include wcpms_plugin *.bat
+recursive-include wcpms_plugin *.cfg
+recursive-include wcpms_plugin *.css
+recursive-include wcpms_plugin *.ico
+recursive-include wcpms_plugin *.json
+recursive-include wcpms_plugin *.png
+recursive-include wcpms_plugin *.py
+recursive-include wcpms_plugin *.qrc
+recursive-include wcpms_plugin *.rst
+recursive-include wcpms_plugin *.sh
+recursive-include wcpms_plugin *.ts
+recursive-include wcpms_plugin *.txt
+recursive-include wcpms_plugin *.ui
+recursive-include wcpms_plugin Makefile
+recursive-include wcpms_plugin/test *.py
+recursive-include wcpms_plugin/test/shapes *

@@ -1,6 +1,6 @@
 ..
-    This file is part of Python QGIS Plugin for WTSS.
-    Copyright (C) 2024 INPE.
+    This file is part of Python QGIS Plugin for WCPMS.
+    Copyright (C) 2025 INPE.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@ Python QGIS Plugin for Web Crop Phenology Metrics Service
 =========================================================
 
 .. image:: https://img.shields.io/badge/license-MIT-green
-        :target: https://github.com/GSansigolo/wcpms-qgis/blob/master/LICENSE
+        :target: https://github.com/brazil-data-cube/wtss/blob/master/LICENSE
         :alt: Software License
 
 .. image:: https://img.shields.io/badge/lifecycle-experimental-orange.svg
@@ -37,16 +37,15 @@ Python QGIS Plugin for Web Crop Phenology Metrics Service
         :alt: Join us at Discord
 
 
+Called Web Crop Phenology Metrics Service (WCPMS) the software extracts phenological metrics from big EO image collections, modeled as multidimensional data cubes, produced by the BDC project of INPE.
 
-Called Web Crop Phenology Metrics Service (WCPMS) the software extracts phenological metrics from big EO image collections, modeled as multidimensional data cubes, produced by the BDC project of INPE. 
-
-It allows analysts to calculate phenological metrics on cloud. The opposite of the on-premises established algorithms, so with no need to download big EO data sets on their personal computers. 
+It allows analysts to calculate phenological metrics on cloud. The opposite of the on-premises established algorithms, so with no need to download big EO data sets on their personal computers.
 
 We created the wcpms.py library from scratch to facilitate phenology extraction operations. This library was developed to be interoperable with other Python libraries, thus enabling users to integrate established libraries into their own workflows for pre- or post-processing and analysis. The wcpms.py library has a group of functions, the main ones are:
 
 - ``get_collections``: returns in list format the unique identifier of each of the data cubes available in the BDC's SpatioTemporal Asset Catalogs (STAC).
 
-- ``get_description``: returns in dictionary format the information on each of the phenology metrics, such as code, name, description and method. 	
+- ``get_description``: returns in dictionary format the information on each of the phenology metrics, such as code, name, description and method.
 
 - ``get_phenometrics``: returns in dictionary form all the phenological metrics calculated for the given spatial location.
 
@@ -62,7 +61,7 @@ The WCPMS Plugin was developed by the Brazil Data Cube project, which offers a s
 
 The primary goal of the presented plugin is to streamline and enhance access to the WCPMS service by providing users with a graphical interface that integrates directly into the QGIS environment.
 
-The plugin WTSS for QGIS is based on the Python programming language with the Python QT library, and its graphical interface with the software QT Designer.
+The plugin WCPMS for QGIS is based on the Python programming language with the Python QT library, and its graphical interface with the software QT Designer.
 
 Installation
 ------------
