@@ -40,7 +40,9 @@ then
 
 	docker rmi wcpms_qgis/qgis:$QGIS_RELEASE --force
 
-	docker build --build-arg FILE=$ZIPFILE -t wcpms_qgis/qgis:$QGIS_RELEASE .
+	mv $ZIPFILE ./scripts
+	cd ./scripts
+	docker build --build-arg FILE="WCPMS.zip" -t wcpms_qgis/qgis:$QGIS_RELEASE .
 fi
 
 xhost +local:docker

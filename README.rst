@@ -20,8 +20,8 @@
 Python QGIS Plugin for Web Crop Phenology Metrics Service
 =========================================================
 
-.. image:: https://img.shields.io/badge/license-MIT-green
-        :target: https://github.com/brazil-data-cube/wtss/blob/master/LICENSE
+.. image:: https://img.shields.io/badge/License-GPLv3-blue.svg
+        :target: https://github.com/brazil-data-cube/bdc-catalog/blob/master/LICENSE
         :alt: Software License
 
 .. image:: https://img.shields.io/badge/lifecycle-experimental-orange.svg
