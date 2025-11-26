@@ -16,14 +16,14 @@
     along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
 
-=======
 Changes
 =======
-
-
 
 Version 0.1.0 (2025-05-14)
 ----------------------------
 
-- First version of Plugin with QGIS Version 3+ support
-- Plot phenometrics using plotly
+- Revisar e atualizar a documentação #6;
+- Adicionar dockerfile para execução e teste do plugin em diferentes versões do QGIS #5;
+- Adicionar opções para o plot de métricas fenológicas #4;
+- Reestruturar o plugin para evitar problemas de "circular import" #3;
+- Corrigir o método para recuperar as bandas conforme a seleção da coleção #2;
