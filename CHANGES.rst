@@ -19,7 +19,7 @@
 Changes
 =======
 
-Version 0.1.0 (2025-05-14)
+Version 0.1.0 (2025-12-23)
 ----------------------------
 
 - Revisar e atualizar a documentação #6;
